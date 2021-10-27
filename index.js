@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Hola mi server en express');
+    res.send('Hola, este es el server de crisleo en express');
 });
 
 app.get('/new', (req, res) => {
